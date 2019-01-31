@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp,  etc) para meu ambiente de desenvolvimento local">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Dorian Neto">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Servidor web embutido, porque eu não te usei antes?!">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp,  etc) para meu ambiente de desenvolvimento local">
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Dorian Neto">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="https://dorianneto.com.br/assets/img/servidor-embutido-php.png">
+    
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@doriansneto">
+
+    <!-- Title -->
+    
+    <title>Servidor web embutido, porque eu não te usei antes?! - Dorian Neto</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58753308-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+        <script>
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.init({
+                    appId: "549ca0b4-bdfa-499f-a3b6-c4b809c8da0c",
+                });
+            });
+        </script>
+    
+
+</head>
+
+<body>
+    <a href="#" class="anchor-top animated"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/sobre">
+                            
+                                Sobre
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/palestras">
+                            
+                                Palestras
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/projetos">
+                            
+                                Projetos
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/dorianneto">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/doriansneto">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.linkedin.com/in/dorianneto">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/assets/img/bg-cover.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading animated fadeIn">
+                    <h1>Servidor web embutido, porque eu não te usei antes?!</h1>
+                    
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        23-04-2016
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/palavra-chave/php/">#php</a> <a href="/palavra-chave/built-in-web-server/">#built-in web server</a> <a href="/palavra-chave/servidor-web/">#servidor web</a> <a href="/palavra-chave/servidor-web-embutido/">#servidor web embutido</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categoria/tutorial/">tutorial</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp,  etc) para meu ambiente de desenvolvimento local e pelo fato de muitos desses softwares utilizarem o apache como servidor web, acabei me acostumando a utilizá-lo. Quando o Nginx foi lançado, tentei utilizá-lo para desenvolvimento local, mas devido a vida louca de entregas e estudos, acabei optando por algo mais rápido e fácil de se configurar e utilizar.</p>
+<p>Até que um dia, tive a necessidade de ter várias versões diferentes do php na minha máquina e pra resolver isso encontrei uma ferramenta que possibilita a utilização de <a href="http://www.dorianneto.com.br/php/problemas-com-versoes-do-php-nunca-mais/" target="_blank" rel="noopener">múltiplas versões do PHP</a> com o Apache. Utilizei essa solução por um bom tempo, porém, depois de várias inúmeras formatações do meu notebook e repetitivas instalações do software e da solução, resolvi procurar uma outra alternativa que me gerasse menos trabalho de configuração.</p>
+<p>Depois de tanto pesquisar e pensar, lembrei de ter lido um post, alguns anos atrás, comentando sobre uma feature no PHP 5.4 que a partir daquela versão o PHP teria um servidor web embutido. Rapidamente baixei as versões que mais utilizo em projetos e fui testar.</p>
+<h2 id="Legal-mas-como-eu-uso-isso"><a href="#Legal-mas-como-eu-uso-isso" class="headerlink" title="Legal, mas como eu uso isso?"></a>Legal, mas como eu uso isso?</h2><p><em>Obs: Utilizo o ubuntu 14.04, então, os comandos serão voltados para linux. Caso vocês sintam a necessidade de um tutorial para windows ou mac é só pedir nos comentários ;)</em></p>
+<p>Acesse a área de <a href="http://php.net/downloads.php" target="_blank" rel="noopener">downloads</a> do site do PHP e faça o download da versão que você deseja utilizar:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo wget http://br1.php.net/get/php-7.0.4.tar.gz/from/this/mirror</span><br></pre></td></tr></table></figure>
+<p><em>obs: Uma dica é utilizar o <a href="http://museum.php.net/" target="_blank" rel="noopener">museu do PHP</a> para baixar outras versões</em></p>
+<p>Depois de fazer o download, extraia o arquivo e configure-o:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo ./configure --prefix=/opt/php7.0.3 --with-mysql --with-mysqli --with-openssl --with-pdo-mysql --with-curl</span><br></pre></td></tr></table></figure>
+<p>O comando <strong>./configure</strong> é responsável por informar quais <a href="http://php.net/manual/pt_BR/configure.about.php" target="_blank" rel="noopener">extensões e quais configurações</a> serão compiladas.</p>
+<p>Após configurá-lo, iremos compilar tudo para que você tenha acesso a linguagem, interpretador etc:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo make</span><br></pre></td></tr></table></figure>
+<p>Note que até agora, tudo está sendo feito dentro da pasta que você extraiu o PHP e somente após o sucesso da configuração e instalação alguns arquivos serão enviados para a pasta que você escolheu na opção <strong>–prefix</strong> (no nosso caso foi a <strong>/opt/php7.0.3)</strong>.</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo make install</span><br></pre></td></tr></table></figure>
+<p>Agora que você tem o PHP instalado e configurado, vamos criar o link simbólico dentro da pasta global de executáveis para acessar pelo terminal:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> ln -s /opt/php7.0.3/bin/php php</span><br></pre></td></tr></table></figure>
+<p>Verifique a versão do php no terminal:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> php -v</span><br></pre></td></tr></table></figure>
+<p>Agora é só iniciar o servidor através deste comando:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> php -S localhost:8080</span><br></pre></td></tr></table></figure>
+<p>Lembrando que ao executar o comando, o servidor será iniciado na mesma pasta que você executou o comando. Caso queira iniciar o servidor em outra pasta, utilize a opção <strong>-t </strong>quando for iniciar o servidor:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> php -S localhost:8080 -t /var/www/html</span><br></pre></td></tr></table></figure>
+<h2 id="E-como-eu-vejo-o-Log-e-utilizo-as-regras-rewrite"><a href="#E-como-eu-vejo-o-Log-e-utilizo-as-regras-rewrite" class="headerlink" title="E como eu vejo o Log e utilizo as regras rewrite?"></a>E como eu vejo o Log e utilizo as regras rewrite?</h2><p>Me fiz essa mesma pergunta e foi uma das coisas que me fizeram quase desistir de utilizar essa solução, mas existe uma resposta pra isso.</p>
+<p>O log você pode acompanhar através do terminal, tanto o log de warnings/notices quanto o log de acessos ao servidor. Você também pode configurar via php.ini um arquivo com logs do PHP, onde você terá acesso a tudo (warning, fatal, notice etc).</p>
+<p>Com relação as regras rewrites, é possível inserir um arquivo que fica responsável pelo roteamento do servidor. Nada mais é do que um arquivo PHP que é executado pelo servidor antes de cada requisição. Essa solução serve para utilizar em aplicações que necessitem regras rewrites, como por exemplo uma aplicação que utilize wordpress.</p>
+<p><em>“E eu vou ter que escrever um arquivo para cada aplicação? Meu deus, assim fica sem condições!”</em></p>
+<p>Calma meu jovem, existem scripts de roteamento para todo tipo de framework, cms etc, é só procurar no google. Você também pode utilizar um arquivo de roteamento para cada tipo de aplicação. Veja esse arquivo como um htaccess :)</p>
+<p>Segue um exemplo de como utilizar o roteamento através do comando:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> php -S localhost:8080 -t /var/www/html /var/www/html/routes/route.php</span><br></pre></td></tr></table></figure>
+<h2 id="Que-negocio-estranho…"><a href="#Que-negocio-estranho…" class="headerlink" title="Que negócio estranho…"></a>Que negócio estranho…</h2><p>No começo, pode ser um pouco estranho utilizar isso pelo fato de rodar tudo no terminal (para iniciantes) e também que a maioria dos desenvolvedores PHP foram ensinados desde o início a utilizar um software de servidor web para não perder tempo configurando o ambiente de desenvolvimento e focar no aprendizado da linguagem. Respeito isso e até indico, mas não se limite a fazer sempre a mesma coisa pelo resto da vida, não se acomode, procure sempre aprender o que há de novo e que possa te deixar mais produtivo.</p>
+<p>Não estou aqui para dizer que você deve esquecer o apache, ngnix e outros servidores webs, estou aqui apenas para tentar te ajudar a tornar o seu ambiente de desenvolvimento local mais ágil e mais fácil de configurar :)</p>
+<p>Lembrando mais uma vez que a indicação do uso do servidor embutido é <strong>apenas para desenvolvimento local </strong>por diversas razões, onde a principal é a segurança.</p>
+<p>Espero que possa ter te ajudado!</p>
+
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr>
+    <h3>Comentários:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/doriansneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.facebook.com/doriansampaioneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="mailto:doriansampaioneto@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- App -->
+<script src="/js/app.js"></script>
+
+<!-- Gallery -->
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'dorianneto';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54c1374b3b5ec2f9"></script>
+    
+</body>
+
+</html>

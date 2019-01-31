@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Engenheiro de Software, palestrante e apaixonado por criar soluções!">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Dorian Neto">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Problemas com versões do PHP nunca mais!">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Engenheiro de Software, palestrante e apaixonado por criar soluções!">
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Dorian Neto">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="https://dorianneto.com.br/assets/img/dorianneto.jpg">
+    
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@doriansneto">
+
+    <!-- Title -->
+    
+    <title>Problemas com versões do PHP nunca mais! - Dorian Neto</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58753308-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+        <script>
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.init({
+                    appId: "549ca0b4-bdfa-499f-a3b6-c4b809c8da0c",
+                });
+            });
+        </script>
+    
+
+</head>
+
+<body>
+    <a href="#" class="anchor-top animated"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/sobre">
+                            
+                                Sobre
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/palestras">
+                            
+                                Palestras
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/projetos">
+                            
+                                Projetos
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/dorianneto">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/doriansneto">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.linkedin.com/in/dorianneto">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/assets/img/bg-cover.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading animated fadeIn">
+                    <h1>Problemas com versões do PHP nunca mais!</h1>
+                    
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        31-03-2015
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/palavra-chave/php/">#php</a> <a href="/palavra-chave/lamp/">#lamp</a> <a href="/palavra-chave/multiplas-versoes-php/">#múltiplas versões php</a> <a href="/palavra-chave/multiple-version-php/">#multiple version php</a> <a href="/palavra-chave/phpfarm/">#phpfarm</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categoria/php/">php</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Lembra quando você aceitou refazer uma área do sistema daquele cliente e quando baixou o projeto viu que o mesmo roda na 5.2 e você só tem a 5.4 instalada? Pois é, esse ódio eu não tenho mais e nem quero que você tenha, pois depois de muito quebrar a cabeça e horas de sono perdidas, vou compartilhar meu momento de extrema felicidade por ter conseguido instalar um ambiente de desenvolvimento com múltiplas versões do PHP rodando!</p>
+<p><em>Obs: Utilizo o ubuntu 12.04, então, os comandos serão voltados para linux. Caso vocês sintam a necessidade de um tutorial para windows ou mac é só pedir nos comentários ;)</em></p>
+<h3 id="Antes-de-comecarmos-atualize-sua-maquina"><a href="#Antes-de-comecarmos-atualize-sua-maquina" class="headerlink" title="Antes de começarmos, atualize sua máquina"></a>Antes de começarmos, atualize sua máquina</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get update</span><br><span class="line"><span class="meta">$</span> sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+<h3 id="Instale-algumas-dependencias"><a href="#Instale-algumas-dependencias" class="headerlink" title="Instale algumas dependências"></a>Instale algumas dependências</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install build-essential</span><br></pre></td></tr></table></figure>
+<p>Esse comando trás um pacote com várias aplicações para compilar/instalar possíveis aplicações utilizadas por você. Exemplos do que é instalado: pacote make, compilador c++, automake, dentre outras libs.</p>
+<p>Não sei se será seu caso, mas quando compilei o php tive alguns problemas com algumas dependências. Caso você tenha o mesmo problema ou queira se previnir, instale também as seguintes dependências:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install libxml2-dev libcurl4-openssl-dev pkg-config libbz2-dev libpng-dev libmcrypt-dev libapache2-mod-php5</span><br></pre></td></tr></table></figure>
+<h3 id="Instale-o-git"><a href="#Instale-o-git" class="headerlink" title="Instale o git"></a>Instale o git</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install git</span><br></pre></td></tr></table></figure>
+<h3 id="Instale-o-LAMP-Server-Apache-MySQL-e-PHP"><a href="#Instale-o-LAMP-Server-Apache-MySQL-e-PHP" class="headerlink" title="Instale o LAMP Server (Apache, MySQL e PHP)"></a>Instale o LAMP Server (Apache, MySQL e PHP)</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install lamp-server^</span><br></pre></td></tr></table></figure>
+<p>Ao rodar o comando, você deverá inserir sua senha do MySQL e aguardar a instalação. Finalizada a instalação, abra uma aba no seu navegador e acesse <strong><a href="http://localhost/" target="_blank" rel="noopener">http://localhost/</a></strong>.</p>
+<p>Você verá “It Works!”</p>
+<p><em>Obs: Não esqueça do circunflexo(^) no final, pois sem ele o comando não irá funcionar.</em></p>
+<p><em>Para os curiosos, o acento circunflexo(^) no final do comando é necessário para que o meta-pacote(lamp-server) seja requisitado no tasksel,que é uma ferramenta do debian que permite instalar múltiplos pacotes de softwares.</em></p>
+<h3 id="Agora-e-onde-a-brincadeira-comeca"><a href="#Agora-e-onde-a-brincadeira-comeca" class="headerlink" title="Agora é onde a brincadeira começa!"></a>Agora é onde a brincadeira começa!</h3><p>O php-farm é um script que permite instalar várias versões do PHP em um mesmo ambiente de desenvolvimento, ou seja, você pode rodar as versões 5.2, 5.3 e 5.4 ao mesmo tempo! Melhor que isso só fazer deploy na sexta às 17h e não ter problemas.</p>
+<p>Para instalar, faça o clone do repositório dentro da pasta <strong>/opt/phpfarm</strong>:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo git clone https://github.com/cweiske/phpfarm.git /opt/phpfarm</span><br></pre></td></tr></table></figure>
+<p>Após a instalação, vamos começar a compilar nossas versões do PHP. Utilizarei a versão 5.4.32 como exemplo, mas você pode baixar qualquer, eu disse QUALQUER versão do PHP pois o php-farm utiliza o <a href="http://museum.php.net/" title="Museum PHP" target="_blank" rel="noopener">Museum PHP</a> como repositório para download das versões.</p>
+<p>Crie um arquivo de configuração personalizado(<strong>custom-options-*.sh</strong>) para instalar a versão do php desejada</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /opt/phpfarm/src/custom-options-5.4.32.sh</span><br></pre></td></tr></table></figure>
+<p>E insira essas configurações no arquivo:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>!/bin/bash</span><br><span class="line"><span class="meta">#</span>gcov='--enable-gcov'</span><br><span class="line">configoptions="\</span><br><span class="line">--enable-bcmath \</span><br><span class="line">--with-mysqli \</span><br><span class="line">--with-curl \</span><br><span class="line">--with-gd \</span><br><span class="line">--enable-calendar \</span><br><span class="line">--enable-exif \</span><br><span class="line">--enable-ftp \</span><br><span class="line">--enable-mbstring \</span><br><span class="line">--enable-pcntl \</span><br><span class="line">--enable-soap \</span><br><span class="line">--enable-sockets \</span><br><span class="line">--enable-wddx \</span><br><span class="line">--enable-zip \</span><br><span class="line">--with-zlib \</span><br><span class="line">--with-gettext \</span><br><span class="line">--with-openssl \</span><br><span class="line">--with-pdo-mysql \</span><br><span class="line">--with-mcrypt \</span><br><span class="line">--enable-soap \</span><br><span class="line">--with-bz2 \</span><br><span class="line">--with-mysql \</span><br><span class="line">--with-iconv \</span><br><span class="line"><span class="meta">$</span>gcov"</span><br></pre></td></tr></table></figure>
+<p>Agora faça a compilação do arquivo</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> cd /opt/phpfarm/src</span><br><span class="line"><span class="meta">$</span> sudo ./compile.sh 5.4.32</span><br></pre></td></tr></table></figure>
+<h3 id="Verificando-as-versoes-instaladas"><a href="#Verificando-as-versoes-instaladas" class="headerlink" title="Verificando as versões instaladas"></a>Verificando as versões instaladas</h3><p>Para verificar se a instalação deu certo, rode os seguintes comandos</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> /opt/phpfarm/inst/bin/php-5.4.32 -v</span><br><span class="line"><span class="meta">$</span> /opt/phpfarm/inst/bin/php-cgi-5.4.32 -v</span><br></pre></td></tr></table></figure>
+<p>Onde na saída de cada comando deverá ser informado a versão do php(no nosso caso é a 5.4.32) e o Server API(cli e cgi-fcgi respectivamente).</p>
+<p><em>Obs: Todas as versões baixadas através do phpfarm serão instaladas em <strong>phpfarm/inst/php-$version/</strong>.</em></p>
+<h3 id="Configurando-nosso-apache"><a href="#Configurando-nosso-apache" class="headerlink" title="Configurando nosso apache"></a>Configurando nosso apache</h3><p>Habilite o módulo <strong>fastcgi</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo a2enmod fastcgi</span><br></pre></td></tr></table></figure>
+<p>Agora vamos configurar o apache para rodar no FastCGI.</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /etc/apache2/apache2.conf</span><br></pre></td></tr></table></figure>
+<p>Insira esse trecho antes de <strong>Include mods-enabled/*.load</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">FastCgiServer /var/www/cgi-bin/php-cgi-5.4.32 -idle-timeout 240</span><br><span class="line">ScriptAlias /cgi-bin-php/ /var/www/cgi-bin/</span><br></pre></td></tr></table></figure>
+<p>Abra o arquivo de configurações do FastCGI</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo vim /etc/apache2/mods-enabled/fastcgi.conf</span><br></pre></td></tr></table></figure>
+<p>E comente esta linha</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">FastCgiIpcDir /var/lib/apache2/fastcgi</span><br></pre></td></tr></table></figure>
+<h3 id="Servidor-finalizado-agora-vamos-preparar-nossa-estrutura"><a href="#Servidor-finalizado-agora-vamos-preparar-nossa-estrutura" class="headerlink" title="Servidor finalizado, agora vamos preparar nossa estrutura"></a>Servidor finalizado, agora vamos preparar nossa estrutura</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> cd /var/www</span><br><span class="line"><span class="meta">$</span> sudo mkdir cgi-bin</span><br></pre></td></tr></table></figure>
+<p>Para cada versão instalada você deverá criar um arquivo nessa pasta(<strong>php-cgi-$version</strong>)</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> cd cgi-bin</span><br><span class="line"><span class="meta">$</span> sudo nano php-cgi-5.4.32</span><br></pre></td></tr></table></figure>
+<p>Insira o conteúdo abaixo no arquivo criado</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>!/bin/bash</span><br><span class="line">PHPRC="/opt/phpfarm/src/php-5.4.32/lib/php.ini"</span><br><span class="line">export PHPRC</span><br><span class="line"></span><br><span class="line">PHP_FCGI_CHILDREN=3</span><br><span class="line">export PHP_FCGI_CHILDREN</span><br><span class="line"></span><br><span class="line">PHP_FCGI_MAX_REQUESTS=5000</span><br><span class="line">export PHP_FCGI_MAX_REQUESTS</span><br><span class="line"></span><br><span class="line">exec /opt/phpfarm/inst/bin/php-cgi-5.4.32</span><br></pre></td></tr></table></figure>
+<p>Logicamente que para cada arquivo de versão diferente o path do conteúdo terá que ser modificado de acordo com a versão.</p>
+<p>Agora transforme o arquivo em um executável</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo chmod +x /var/www/cgi-bin/php-cgi-5.4.32</span><br></pre></td></tr></table></figure>
+<h3 id="Falta-apenas-configurar-nosso-maravilhoso-VirtualHost"><a href="#Falta-apenas-configurar-nosso-maravilhoso-VirtualHost" class="headerlink" title="Falta apenas configurar nosso maravilhoso VirtualHost"></a>Falta apenas configurar nosso maravilhoso VirtualHost</h3><p>Ao criar um arquivo VirtualHost, você terá que inserir um trecho no qual vai criar toda a mágica das múltiplas versões.</p>
+<p>Crie o arquivo do VirtualHost</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /etc/apache2/sites-available/php54.dev</span><br></pre></td></tr></table></figure>
+<p>Insira esse trecho dentro das tags <strong>Directory</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> Trecho da mágica!</span><br><span class="line">AddHandler php-cgi .php</span><br><span class="line">Action php-cgi /cgi-bin-php/php-cgi-5.4.32</span><br><span class="line">&lt;FilesMatch "\.php$"&gt;</span><br><span class="line">    SetHandler php-cgi</span><br><span class="line">&lt;/FilesMatch&gt;</span><br></pre></td></tr></table></figure>
+<p>Você pode pegar esse VirtualHost configurado como exemplo</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">    ServerName php54.dev</span><br><span class="line">    DocumentRoot /var/www/html/php54</span><br><span class="line"></span><br><span class="line">    &lt;Directory /var/www/html/php54&gt;</span><br><span class="line">        Options Indexes FollowSymlinks Includes ExecCGI</span><br><span class="line">        AllowOverride All</span><br><span class="line">        Order allow,deny</span><br><span class="line">        Allow from all</span><br><span class="line">        Require all granted</span><br><span class="line"></span><br><span class="line">        AddHandler php-cgi .php</span><br><span class="line">        # Não esqueça de mudar o arquivo quando for criar um novo VirtualHost em outra versão do PHP</span><br><span class="line">        Action php-cgi /cgi-bin-php/php-cgi-5.4.32</span><br><span class="line">        &lt;FilesMatch "\.php$"&gt;</span><br><span class="line">            SetHandler php-cgi</span><br><span class="line">        &lt;/FilesMatch&gt;</span><br><span class="line">    &lt;/Directory&gt;</span><br><span class="line"></span><br><span class="line">    # Configure os paths do log para não ter erro ao reiniciar o apache</span><br><span class="line">    #ErrorLog /var/www/test/log/error.log</span><br><span class="line">    #LogLevel info</span><br><span class="line">    #CustomLog /var/www/test/log/access.log combined</span><br><span class="line">&lt;/VirtualHost&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="E-para-finalizar…"><a href="#E-para-finalizar…" class="headerlink" title="E para finalizar…"></a>E para finalizar…</h3><p>Insira o domínio utilizado no VirtualHost no seu arquivo <strong>/etc/hosts</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /etc/hosts</span><br></pre></td></tr></table></figure>
+<p>Ative o VirtualHost criado</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo a2ensite php54.dev</span><br></pre></td></tr></table></figure>
+<p>Vamos aproveitar e instalar o <strong>phpMyAdmin</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo apt-get install phpmyadmin</span><br></pre></td></tr></table></figure>
+<p>Selecione <strong>Apache2</strong> e marque <strong>Yes </strong>para permitir que o phpMyAdmin seja configurado automaticamente. Insira a senha do root do MySQL e depois insira a senha de acesso ao painel.</p>
+<p>Acesse as configurações do Apache</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /etc/apache2/apache2.conf</span><br></pre></td></tr></table></figure>
+<p>Inclua essa linha no final do arquivo<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Include /etc/phpmyadmin/apache.conf</span><br></pre></td></tr></table></figure></p>
+<p>E por fim, reinicie o Apache<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo service apache2 restart</span><br></pre></td></tr></table></figure></p>
+<p>Acesse <strong><a href="http://localhost/phpmyadmin" target="_blank" rel="noopener">http://localhost/phpmyadmin</a></strong> para testar a do phpMyAdmin instalação.</p>
+<h3 id="Sera-que-deu-certo"><a href="#Sera-que-deu-certo" class="headerlink" title="Será que deu certo?"></a>Será que deu certo?</h3><p>Crie um arquivo php para verificar se deu certo<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo nano /var/www/html/info.php</span><br></pre></td></tr></table></figure></p>
+<p>Insira a função <strong>phpinfo()</strong> e copie para a pasta <strong>/var/www/html/php54</strong><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> sudo cp /var/www/html/info.php /var/www/html/php54/info.php</span><br></pre></td></tr></table></figure></p>
+<p>Acesse:</p>
+<p><strong><a href="http://localhost/" target="_blank" rel="noopener">http://localhost/</a></strong><br><a href="#" data-featherlight="/assets/img/localhost.png"><br>  <img src="/assets/img/localhost-thumbnail.png" alt="localhost"><br></a></p>
+<p><strong><a href="http://php54.dev" target="_blank" rel="noopener">http://php54.dev</a></strong><br><a href="#" data-featherlight="/assets/img/phpfarm-5432.png"><br>  <img src="/assets/img/phpfarm-5432-thumbnail.png" alt="phpfarm-5.4.32"><br></a></p>
+<p>Lindo né não?</p>
+<p>Agora sente, pare e lembre de todos aqueles momentos difíceis que você passou por não ter um ambiente como esse instalado na sua máquina. Não chore, pois agora você é um desenvolvedor PHP feliz e pronto para qualquer projeto!</p>
+<p>Lembrando que para instalar qualquer outra versão, basta executar os mesmos passos.</p>
+<p>Um abraço e até o próximo post!</p>
+<h3 id="UPDATE-13-04-2016"><a href="#UPDATE-13-04-2016" class="headerlink" title="#UPDATE - 13/04/2016"></a>#UPDATE - 13/04/2016</h3><p>Devido a alguns pedidos do tutorial deste post para Windows, indico o link abaixo do canal da <a href="https://www.youtube.com/channel/UCIlafifr-E57jct9knCrZzw" target="_blank" rel="noopener">Code Education</a> para solução de múltiplas versões PHP no Windows utilizando o servidor embutido do PHP.</p>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/81EMVz1rnoE" frameborder="0" allowfullscreen></iframe>
+
+<p>Infelizmente, o PHPFarm não possui suporte para Windows, apenas para sistemas unix, e para resolver isso terei que mexer no compilador do mesmo para que seja possível rodar em ambiente Windows.</p>
+<p>Enquanto não faço isso, sugiro que assistam o vídeo postado acima e qualquer dúvida não hesitem em postar nos comentários abaixo.</p>
+<p>Vlw negada ;)</p>
+<p><strong>Obs: Pretendo publicar um post essa semana ou na próxima sobre servidor embutido do PHP, que também uma forma de rodar várias versões do PHP e é um ótimo webserver para desenvolvimento local.</strong></p>
+
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr>
+    <h3>Comentários:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/doriansneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.facebook.com/doriansampaioneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="mailto:doriansampaioneto@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- App -->
+<script src="/js/app.js"></script>
+
+<!-- Gallery -->
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'dorianneto';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54c1374b3b5ec2f9"></script>
+    
+</body>
+
+</html>

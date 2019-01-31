@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Engenheiro de Software, palestrante e apaixonado por criar soluções!">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Dorian Neto">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Filtragem de dados - Introdução e Manipulação de tipos">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Engenheiro de Software, palestrante e apaixonado por criar soluções!">
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Dorian Neto">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="https://dorianneto.com.br/assets/img/dorianneto.jpg">
+    
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@doriansneto">
+
+    <!-- Title -->
+    
+    <title>Filtragem de dados - Introdução e Manipulação de tipos - Dorian Neto</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58753308-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+        <script>
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.init({
+                    appId: "549ca0b4-bdfa-499f-a3b6-c4b809c8da0c",
+                });
+            });
+        </script>
+    
+
+</head>
+
+<body>
+    <a href="#" class="anchor-top animated"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/sobre">
+                            
+                                Sobre
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/palestras">
+                            
+                                Palestras
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/projetos">
+                            
+                                Projetos
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/dorianneto">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/doriansneto">
+                            
+                                <i class="fa fa-twitter fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.linkedin.com/in/dorianneto">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/assets/img/bg-cover.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading animated fadeIn">
+                    <h1>Filtragem de dados - Introdução e Manipulação de tipos</h1>
+                    
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        14-02-2014
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/palavra-chave/php/">#php</a> <a href="/palavra-chave/dicas/">#dicas</a> <a href="/palavra-chave/filtragem-de-dados/">#filtragem de dados</a> <a href="/palavra-chave/manipulacao-de-tipos/">#manipulação de tipos</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categoria/php/">php</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Vejo muitos desenvolvedores recebendo dados de fontes externas ou até mesmo de fontes internas de uma aplicação e não fazem a devida filtragem desses dados. Mal sabem eles que a não filtragem dos dados pode comprometer seriamente a segurança de uma aplicação, deixando graves brechas para que usuários mal intencionados façam o que quiser.</p>
+<h2 id="E-o-que-e-exatamente-filtragem-de-dados"><a href="#E-o-que-e-exatamente-filtragem-de-dados" class="headerlink" title="E o que é exatamente filtragem de dados ?"></a>E o que é exatamente filtragem de dados ?</h2><p>É o processo onde você irá definir que tipo de dado você espera como retorno.</p>
+<p>Vamos supor que você tem uma página que recupera o id de uma notícia via GET e você usa este id para procurar a notícia no banco e retornar seus detalhes, mas você não filtra esse id.</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// URI: http://www.seusite.com.br/noticia.php?id=5</span></span><br><span class="line">$id = $_GET[‘id’];</span><br><span class="line"><span class="keyword">echo</span> $id;</span><br></pre></td></tr></table></figure>
+<p>O código acima contém uma grande falha, pois não existe uma filtragem do valor externo (id). Desta forma, um usuário mal intencionado poderá inserir qualquer coisa através da uri, podendo comprometer sua aplicação ou banco de dados.<br>O correto seria filtrar o valor com o seu devido tipo de dado, que nesse caso seria um número inteiro pois estamos lidando com identificadores de registros(id’s).</p>
+<p>Abaixo listarei uma das diversas maneiras de efetuar a filtragem de dados. Falarei mais sobre os outros em futuros posts.</p>
+<h2 id="Manipulacao-de-tipos-Type-casting-O-que-e-isso"><a href="#Manipulacao-de-tipos-Type-casting-O-que-e-isso" class="headerlink" title="Manipulação de tipos (Type casting). O que é isso ?"></a>Manipulação de tipos (Type casting). O que é isso ?</h2><p>O PHP é uma linguagem de tipagem fraca, ou seja, não é necessário informar qual o tipo de dado um determinado valor possui pois no processo de interpretação do código o interpretador converte o valor para um determinado tipo de dado.</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">echo</span> <span class="number">10</span> + ‘<span class="number">5</span> teste’; <span class="comment">// Retorna 15</span></span><br><span class="line"><span class="keyword">echo</span> <span class="number">10</span> + ‘teste <span class="number">5</span>’; <span class="comment">// Retorna 10</span></span><br><span class="line"><span class="keyword">echo</span> <span class="number">10</span> + ‘teste’; <span class="comment">// Retorna 10</span></span><br></pre></td></tr></table></figure>
+<p>No exemplo acima, na primeira linha, vimos que ao tentar somar um inteiro(10) com uma string onde um número inteiro(5) está no começo da string, o interpretador converte a string para inteiro e efetua a soma entre 2 números inteiros(10 e 5). Já na segunda linha, tentamos somar um inteiro(10) com uma string que não possui um inteiro no início, logo, o interpretador considera a string como 0 e efetua a soma(10 e 0). A mesma coisa acontece ao tentar efetuar a soma na terceira linha.</p>
+<p>Mas o PHP não te impede de tipar valores, com a manipulação de tipos você pode converter um valor para um tipo de dado de sua preferência.</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// URI: http://www.seusite.com.br/noticia.php?id=5</span></span><br><span class="line">$id = (int) $_GET[‘id’];</span><br><span class="line">var_dump($id);</span><br></pre></td></tr></table></figure>
+<p>Executando o código acima, você verá que o valor retornado é um inteiro e que se o valor da variável $id não for um número inteiro, a mesma terá o valor 0 como retorno.</p>
+<p>Abaixo listo os tipos de dados permitidos para manipulação:</p>
+<ul>
+<li>(int) ou (interger)</li>
+<li>(bool) ou (boolean)</li>
+<li>(float) ou (double) ou (real)</li>
+<li>(string)</li>
+<li>(array)</li>
+<li>(object)</li>
+<li>(unset)</li>
+</ul>
+<p>Mais alguns exemplos de manipulação de tipos:</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">// Array to Object</span></span><br><span class="line">$array = <span class="keyword">array</span>(</span><br><span class="line">	<span class="string">'nome'</span> =&amp;gt; <span class="string">'Dorian Sampaio'</span>,</span><br><span class="line">	<span class="string">'idade'</span> =&amp;gt; <span class="number">20</span>,</span><br><span class="line">	<span class="string">'sexo'</span> =&amp;gt; <span class="string">'Masculino'</span></span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">var_dump($array);</span><br><span class="line">$object = (object) $array;</span><br><span class="line">var_dump($object);</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span> $object-&amp;gt;nome;</span><br><span class="line"><span class="keyword">echo</span> $object-&amp;gt;idade;</span><br><span class="line"><span class="keyword">echo</span> $object-&amp;gt;sexo;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* ------------------------------ */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Float to Int</span></span><br><span class="line">$float = <span class="number">2.3</span>;</span><br><span class="line">var_dump($float);</span><br><span class="line">$float_to_int = (int) $float;</span><br><span class="line">var_dump($float_to_int);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* ------------------------------ */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Int to Bool</span></span><br><span class="line">$int = <span class="number">13</span>;</span><br><span class="line">var_dump($int);</span><br><span class="line">$int_to_bool = (bool) $int;</span><br><span class="line">var_dump($int_to_bool);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* ------------------------------ */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// String to Unset</span></span><br><span class="line">$string = <span class="string">'Dorian Sampaio'</span>;</span><br><span class="line">var_dump($string);</span><br><span class="line">$string_to_unset = (<span class="keyword">unset</span>) $string;</span><br><span class="line">var_dump($string_to_unset);</span><br></pre></td></tr></table></figure>
+<p>As possibilidades são infinitas ! Use sua imaginação ;)</p>
+<h2 id="Conclusao-Manipulacao-de-tipos"><a href="#Conclusao-Manipulacao-de-tipos" class="headerlink" title="Conclusão (Manipulação de tipos)"></a>Conclusão (Manipulação de tipos)</h2><p>Ao usarmos manipulação de tipos passamos segurança e controle ao nosso código, pois o mesmo saberá que tipo de dado aquela determinada tarefa necessita para se executada, e caso o valor não corresponda com o esperado o código também estará preparado para executar alguma ação.</p>
+<p>Existem muitos questionamentos sobre usar ou não usar a manipulação de tipos no PHP por conta do interpretador já fazer esse trabalho para você, eu particularmente uso quando quero ter certeza de que um determinado valor seja do tipo que eu preciso (Exemplo: campo de moeda em um formulário), agora cabe a você encontrar os momentos em que seja necessário usar ou não.</p>
+<p>Um abraço e até o próximo post !</p>
+
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr>
+    <h3>Comentários:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/doriansneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.facebook.com/doriansampaioneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/dorianneto" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="mailto:doriansampaioneto@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- App -->
+<script src="/js/app.js"></script>
+
+<!-- Gallery -->
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'dorianneto';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54c1374b3b5ec2f9"></script>
+    
+</body>
+
+</html>
