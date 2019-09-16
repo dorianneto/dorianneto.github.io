@@ -2,6 +2,10 @@ article .container .row a {
   text-decoration: underline;
   word-wrap: break-word;
 }
+article .container .row a:hover {
+  background-color: color-link;
+  color: gray-dark;
+}
 article .container .row img {
   max-width: 100% !important;
   height: auto;
@@ -26,6 +30,7 @@ article .container .row .video-container embed {
   margin-top: 0;
 }
 article .container .row blockquote {
+  color: color-quote;
   font-style: italic;
   font-family: font-serif;
   font-size: 1.2em;
