@@ -1,413 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Head tag -->
-<head><meta name="generator" content="Hexo 3.8.0">
-
+<html lang=pt>
+<head>
+    <!-- so meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="2017COMSOLiD 10 minicurso Minicurso ministrado em 3 dias sobre como desenvolver um sistema de ticket (help desk) usando Laravel Slides: https:&#x2F;&#x2F;slides.com&#x2F;dorianneto&#x2F;minicurso-laraticket Repositório:">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Palestras">
+<meta property="og:url" content="https://dorianneto.com.br/palestras/index.html">
+<meta property="og:site_name" content="Dorian Neto">
+<meta property="og:description" content="2017COMSOLiD 10 minicurso Minicurso ministrado em 3 dias sobre como desenvolver um sistema de ticket (help desk) usando Laravel Slides: https:&#x2F;&#x2F;slides.com&#x2F;dorianneto&#x2F;minicurso-laraticket Repositório:">
+<meta property="og:locale" content="pt_BR">
+<meta property="article:published_time" content="2020-02-27T05:42:22.403Z">
+<meta property="article:modified_time" content="2020-02-27T05:42:22.403Z">
+<meta property="article:author" content="Dorian Neto">
+<meta name="twitter:card" content="summary">
 
-    <!--Description-->
-    
-        <meta name="description" content="Engenheiro de software apaixonado por projetar, solucionar e contribuir!">
-    
-
-    <!--Author-->
-    
-        <meta name="author" content="Dorian Neto">
-    
-
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="Palestras">
-    
-
-    <!--Open Graph Description-->
-    
-        <meta property="og:description" content="Engenheiro de software apaixonado por projetar, solucionar e contribuir!">
     
 
-    <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Dorian Neto">
-
-    <!--Type page-->
     
-        <meta property="og:type" content="article">
+    
+        
+          
+              <link rel="shortcut icon" href="/assets/img/favicon-32x32.png">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/assets/img/android-chrome-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Palestras</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="https://feeds.feedburner.com/dorianneto" title="Dorian Neto" type="application/atom+xml" />
     
 
-    <!--Page Cover-->
-    
-        <meta property="og:image" content="https://dorianneto.com.br/assets/img/dorianneto.jpg">
-    
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@doriansneto">
-
-    <!-- Title -->
-    
-    <title>Palestras - Dorian Neto</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <link rel="shortcut icon" href="https://dorianneto.com.br/assets/img/favicon.ico">
-    <link rel="icon" type="image/png" href="https://dorianneto.com.br/assets/img/android-chrome-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dorianneto.com.br/assets/img/apple-touch-icon.png">
-
-    <!-- Custom Fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Montserrat:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Gallery -->
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet">
-
-    <!-- Google Analytics -->
-    
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-58753308-1', 'auto');
-        ga('send', 'pageview');
-
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1437749,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
 
-
-
+<body class="max-width mx-auto px3 ltr animated fadeIn">
     
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-        <script>
-            var OneSignal = window.OneSignal || [];
-            OneSignal.push(function() {
-                OneSignal.init({
-                    appId: "549ca0b4-bdfa-499f-a3b6-c4b809c8da0c",
-                });
-            });
-        </script>
-    
-
-</head>
-
-
-<body>
-    <a href="#" class="anchor-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-
-    <!-- Menu -->
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">home</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/sobre">
-                            
-                                Sobre
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/palestras">
-                            
-                                Palestras
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/projetos">
-                            
-                                Projetos
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://github.com/dorianneto">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://twitter.com/doriansneto">
-                            
-                                <i class="fa fa-twitter fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://www.linkedin.com/in/dorianneto">
-                            
-                                <i class="fa fa-linkedin fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="http://feeds.feedburner.com/dorianneto">
-                            
-                                <i class="fa fa-rss fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+    <div class="content index py2">
+        
+          <header id="header">
+  <a href="/">
+  
+    <div id="title" class="animated flipInX">
+      <h1>Dorian Neto</h1>
     </div>
-    <!-- /.container -->
-</nav>
-
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in your post front-matter: cover -->
-
-<header class="intro-header" style="background-image: url('/assets/img/bg-cover.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="page-heading animated fadeIn">
-                    <h1>Palestras</h1>
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/sobre/">Sobre</a></li>
+        
+      
+        
+          <li><a href="/palestras/">Palestras</a></li>
+        
+      
+        
+          <li><a href="/projetos/">Projetos</a></li>
+        
+      
+    </ul>
+  </div>
 </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
 
-            <!-- Tags and categories -->
-           
-
-            <!-- Gallery -->
-            
-
-            <!-- Post Main Content -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h1 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h1><h2 id="COMSOLiD-10-minicurso"><a href="#COMSOLiD-10-minicurso" class="headerlink" title="COMSOLiD 10 minicurso"></a>COMSOLiD 10 <span class="badge">minicurso</span></h2><ul>
+  <div class="content" itemprop="articleBody">
+      
+          <h2 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h2><h3 id="COMSOLiD-10-minicurso"><a href="#COMSOLiD-10-minicurso" class="headerlink" title="COMSOLiD 10 minicurso"></a>COMSOLiD 10 <span class="badge">minicurso</span></h3><ul>
 <li>Minicurso ministrado em 3 dias sobre como desenvolver um sistema de ticket (help desk) usando Laravel</li>
 <li>Slides: <a href="https://slides.com/dorianneto/minicurso-laraticket" target="_blank" rel="noopener">https://slides.com/dorianneto/minicurso-laraticket</a></li>
 <li>Repositório: <a href="https://github.com/dorianneto/laraticket" target="_blank" rel="noopener">https://github.com/dorianneto/laraticket</a></li>
 <li>Demo: <a href="http://bit.ly/laraticket-heroku" target="_blank" rel="noopener">http://bit.ly/laraticket-heroku</a></li>
 </ul>
-<h2 id="COMSOLiD-10-palestra"><a href="#COMSOLiD-10-palestra" class="headerlink" title="COMSOLiD 10 palestra"></a>COMSOLiD 10 <span class="badge">palestra</span></h2><ul>
+<h3 id="COMSOLiD-10-palestra"><a href="#COMSOLiD-10-palestra" class="headerlink" title="COMSOLiD 10 palestra"></a>COMSOLiD 10 <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida</li>
 <li>Slides: <a href="http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas" target="_blank" rel="noopener">http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas</a></li>
 </ul>
-<h2 id="Esquenta-PHPeste-palestra"><a href="#Esquenta-PHPeste-palestra" class="headerlink" title="Esquenta PHPeste palestra"></a>Esquenta PHPeste <span class="badge">palestra</span></h2><ul>
+<h3 id="Esquenta-PHPeste-palestra"><a href="#Esquenta-PHPeste-palestra" class="headerlink" title="Esquenta PHPeste palestra"></a>Esquenta PHPeste <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida</li>
 <li>Slides: <a href="http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas" target="_blank" rel="noopener">http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas</a></li>
 </ul>
-<h2 id="RDC-Day-2017-II-Encontro-de-Redes-de-Computadores-palestra"><a href="#RDC-Day-2017-II-Encontro-de-Redes-de-Computadores-palestra" class="headerlink" title="RDC Day 2017 - II Encontro de Redes de Computadores palestra"></a>RDC Day 2017 - II Encontro de Redes de Computadores <span class="badge">palestra</span></h2><ul>
+<h3 id="RDC-Day-2017-II-Encontro-de-Redes-de-Computadores-palestra"><a href="#RDC-Day-2017-II-Encontro-de-Redes-de-Computadores-palestra" class="headerlink" title="RDC Day 2017 - II Encontro de Redes de Computadores palestra"></a>RDC Day 2017 - II Encontro de Redes de Computadores <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida</li>
 <li>Slides: <a href="http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas" target="_blank" rel="noopener">http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas</a></li>
 </ul>
-<h2 id="PHP-com-Rapadura-in-Quixada-palestra"><a href="#PHP-com-Rapadura-in-Quixada-palestra" class="headerlink" title="PHP com Rapadura in Quixadá palestra"></a>PHP com Rapadura in Quixadá <span class="badge">palestra</span></h2><ul>
+<h3 id="PHP-com-Rapadura-in-Quixada-palestra"><a href="#PHP-com-Rapadura-in-Quixada-palestra" class="headerlink" title="PHP com Rapadura in Quixadá palestra"></a>PHP com Rapadura in Quixadá <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre Object Calisthenics</li>
 <li>Slides: <a href="http://slides.com/dorianneto/object-calisthenics" target="_blank" rel="noopener">http://slides.com/dorianneto/object-calisthenics</a></li>
 </ul>
-<h2 id="PHP-com-Rapadura-in-Quixada-workshop"><a href="#PHP-com-Rapadura-in-Quixada-workshop" class="headerlink" title="PHP com Rapadura in Quixadá workshop"></a>PHP com Rapadura in Quixadá <span class="badge">workshop</span></h2><ul>
+<h3 id="PHP-com-Rapadura-in-Quixada-workshop"><a href="#PHP-com-Rapadura-in-Quixada-workshop" class="headerlink" title="PHP com Rapadura in Quixadá workshop"></a>PHP com Rapadura in Quixadá <span class="badge">workshop</span></h3><ul>
 <li>Introdução sobre a comunidade DojoCE e realização do Dojo</li>
 <li>Slides: <a href="https://slides.com/dorianneto/encontro-dojoce" target="_blank" rel="noopener">https://slides.com/dorianneto/encontro-dojoce</a></li>
 </ul>
-<h2 id="3°-Encontro-DojoCE-workshop"><a href="#3°-Encontro-DojoCE-workshop" class="headerlink" title="3° Encontro DojoCE workshop"></a>3° Encontro DojoCE <span class="badge">workshop</span></h2><ul>
+<h3 id="3°-Encontro-DojoCE-workshop"><a href="#3°-Encontro-DojoCE-workshop" class="headerlink" title="3° Encontro DojoCE workshop"></a>3° Encontro DojoCE <span class="badge">workshop</span></h3><ul>
 <li>Introdução sobre a comunidade e realização do Dojo</li>
 <li>Slides: <a href="https://slides.com/dorianneto/encontro-dojoce" target="_blank" rel="noopener">https://slides.com/dorianneto/encontro-dojoce</a></li>
 </ul>
-<h2 id="2°-Encontro-DojoCE-workshop"><a href="#2°-Encontro-DojoCE-workshop" class="headerlink" title="2° Encontro DojoCE workshop"></a>2° Encontro DojoCE <span class="badge">workshop</span></h2><ul>
+<h3 id="2°-Encontro-DojoCE-workshop"><a href="#2°-Encontro-DojoCE-workshop" class="headerlink" title="2° Encontro DojoCE workshop"></a>2° Encontro DojoCE <span class="badge">workshop</span></h3><ul>
 <li>Introdução sobre a comunidade e realização do Dojo</li>
 <li>Slides: <a href="https://slides.com/dorianneto/encontro-dojoce" target="_blank" rel="noopener">https://slides.com/dorianneto/encontro-dojoce</a></li>
 </ul>
-<h2 id="1°-Encontro-DojoCE-workshop"><a href="#1°-Encontro-DojoCE-workshop" class="headerlink" title="1° Encontro DojoCE workshop"></a>1° Encontro DojoCE <span class="badge">workshop</span></h2><ul>
+<h3 id="1°-Encontro-DojoCE-workshop"><a href="#1°-Encontro-DojoCE-workshop" class="headerlink" title="1° Encontro DojoCE workshop"></a>1° Encontro DojoCE <span class="badge">workshop</span></h3><ul>
 <li>Introdução sobre a comunidade e realização do Dojo</li>
 <li>Slides: <a href="https://slides.com/dorianneto/encontro-dojoce" target="_blank" rel="noopener">https://slides.com/dorianneto/encontro-dojoce</a></li>
 </ul>
-<h1 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h1><h2 id="Darkmira-Tour-Fortaleza-palestra"><a href="#Darkmira-Tour-Fortaleza-palestra" class="headerlink" title="Darkmira Tour Fortaleza palestra"></a>Darkmira Tour Fortaleza <span class="badge">palestra</span></h2><ul>
+<h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2><h3 id="Darkmira-Tour-Fortaleza-palestra"><a href="#Darkmira-Tour-Fortaleza-palestra" class="headerlink" title="Darkmira Tour Fortaleza palestra"></a>Darkmira Tour Fortaleza <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre Object Calisthenics</li>
 <li>Slides: <a href="http://slides.com/dorianneto/object-calisthenics" target="_blank" rel="noopener">http://slides.com/dorianneto/object-calisthenics</a></li>
 </ul>
-<h2 id="Wordcamp-Fortaleza-palestra"><a href="#Wordcamp-Fortaleza-palestra" class="headerlink" title="Wordcamp Fortaleza palestra"></a>Wordcamp Fortaleza <span class="badge">palestra</span></h2><ul>
+<h3 id="Wordcamp-Fortaleza-palestra"><a href="#Wordcamp-Fortaleza-palestra" class="headerlink" title="Wordcamp Fortaleza palestra"></a>Wordcamp Fortaleza <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre as novidades do PHP7 e impactos no Wordpress</li>
 <li>Slides: <a href="http://slides.com/dorianneto/wordpress-e-php-7" target="_blank" rel="noopener">http://slides.com/dorianneto/wordpress-e-php-7</a></li>
 </ul>
-<h2 id="Flisol-2016-Ceara-palestra"><a href="#Flisol-2016-Ceara-palestra" class="headerlink" title="Flisol 2016 - Ceará palestra"></a>Flisol 2016 - Ceará <span class="badge">palestra</span></h2><ul>
+<h3 id="Flisol-2016-Ceara-palestra"><a href="#Flisol-2016-Ceara-palestra" class="headerlink" title="Flisol 2016 - Ceará palestra"></a>Flisol 2016 - Ceará <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre Github</li>
 <li>Slides: <a href="http://slides.com/dorianneto/github-desenvolva-contribua-e-participe" target="_blank" rel="noopener">http://slides.com/dorianneto/github-desenvolva-contribua-e-participe</a></li>
 </ul>
-<h2 id="1°-Encontro-de-Dev’s-PHP-do-Ceara-palestra"><a href="#1°-Encontro-de-Dev’s-PHP-do-Ceara-palestra" class="headerlink" title="1° Encontro de Dev’s PHP do Ceará palestra"></a>1° Encontro de Dev’s PHP do Ceará <span class="badge">palestra</span></h2><ul>
+<h3 id="1°-Encontro-de-Dev’s-PHP-do-Ceara-palestra"><a href="#1°-Encontro-de-Dev’s-PHP-do-Ceara-palestra" class="headerlink" title="1° Encontro de Dev’s PHP do Ceará palestra"></a>1° Encontro de Dev’s PHP do Ceará <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre as novidades do PHP7</li>
 <li>Slides: <a href="http://slides.com/dorianneto/php-7-o-que-ha-de-novidades" target="_blank" rel="noopener">http://slides.com/dorianneto/php-7-o-que-ha-de-novidades</a></li>
 </ul>
-<h2 id="COMSOLiD-9-palestra"><a href="#COMSOLiD-9-palestra" class="headerlink" title="COMSOLiD 9 palestra"></a>COMSOLiD 9 <span class="badge">palestra</span></h2><ul>
+<h3 id="COMSOLiD-9-palestra"><a href="#COMSOLiD-9-palestra" class="headerlink" title="COMSOLiD 9 palestra"></a>COMSOLiD 9 <span class="badge">palestra</span></h3><ul>
 <li>Palestra sobre Github</li>
 <li>Slides: <a href="http://slides.com/dorianneto/github-desenvolva-contribua-e-participe" target="_blank" rel="noopener">http://slides.com/dorianneto/github-desenvolva-contribua-e-participe</a></li>
 </ul>
-<h1 id="2015"><a href="#2015" class="headerlink" title="2015"></a>2015</h1><h2 id="PHP-com-Rapadura-in-FCRS-workshop"><a href="#PHP-com-Rapadura-in-FCRS-workshop" class="headerlink" title="PHP com Rapadura in FCRS workshop"></a>PHP com Rapadura in FCRS <span class="badge">workshop</span></h2><ul>
+<h2 id="2015"><a href="#2015" class="headerlink" title="2015"></a>2015</h2><h3 id="PHP-com-Rapadura-in-FCRS-workshop"><a href="#PHP-com-Rapadura-in-FCRS-workshop" class="headerlink" title="PHP com Rapadura in FCRS workshop"></a>PHP com Rapadura in FCRS <span class="badge">workshop</span></h3><ul>
 <li>Workshop de Git</li>
 <li>Slides: <a href="http://slides.com/dorianneto/controle-de-versao" target="_blank" rel="noopener">http://slides.com/dorianneto/controle-de-versao</a></li>
 </ul>
 
-            </div>
-
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
-    <hr>
-    <h3>Comentários:</h3>
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-
-
-
-                </div>
-            
-        </div>
-    </div>
+        
+  </div>
 </article>
 
-
-    <!-- Footer -->
-    <hr>
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
-                        <li>
-                            <a href="https://twitter.com/doriansneto" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-                        <li>
-                            <a href="https://www.facebook.com/doriansampaioneto" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-                        <li>
-                            <a href="https://github.com/dorianneto" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-                        <li>
-                            <a href="https://www.linkedin.com/in/dorianneto" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-                        <li>
-                            <a href="mailto:doriansampaioneto@gmail.com" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-                </ul>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
-            </div>
-        </div>
-    </div>
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2013-2020 Dorian Neto
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        
+          
+            <li><a href="/">Home</a></li>
+          
+        
+          
+            <li><a href="/sobre/">Sobre</a></li>
+          
+        
+          
+            <li><a href="/palestras/">Palestras</a></li>
+          
+        
+          
+            <li><a href="/projetos/">Projetos</a></li>
+          
+        
+      </ul>
+    </nav>
+  </div>
 </footer>
 
+    </div>
+    <!-- styles -->
 
-    <!-- After footer scripts -->
-    
-<!-- jQuery -->
-<script src="/js/jquery.min.js"></script>
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<!-- Bootstrap -->
-<script src="/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- App -->
-<script src="/js/app.js"></script>
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
 
-<!-- Gallery -->
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-58753308-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Baidu Analytics -->
 
 <!-- Disqus Comments -->
 
-<script type="text/javascript">
-    var disqus_shortname = 'dorianneto';
+    <script>
+      var disqus_shortname = 'dorianneto';
 
-    (function(){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
+      (function () {
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
 
 
-    
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54c1374b3b5ec2f9"></script>
-    
 </body>
-
 </html>
