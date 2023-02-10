@@ -4,6 +4,10 @@
     <title>palestra on Dorian Neto</title>
     <link>https://dorianneto.github.io/pt/tags/palestra/</link>
     <description>Recent content in palestra on Dorian Neto</description>
+    <image>
+      <url>https://dorianneto.github.io/images/dorianneto-thumbnail.jpg</url>
+      <link>https://dorianneto.github.io/images/dorianneto-thumbnail.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
     <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/palestra/index.xml" rel="self" type="application/rss+xml" />

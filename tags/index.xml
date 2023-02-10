@@ -4,6 +4,10 @@
     <title>Tags on Dorian Neto</title>
     <link>https://dorianneto.github.io/tags/</link>
     <description>Recent content in Tags on Dorian Neto</description>
+    <image>
+      <url>https://dorianneto.github.io/images/dorianneto-thumbnail.jpg</url>
+      <link>https://dorianneto.github.io/images/dorianneto-thumbnail.jpg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright><atom:link href="https://dorianneto.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
