@@ -82,7 +82,7 @@ params:
   description: "I'm a Software Engineer passionate about Software Architecture, who has been designing and developing end-to-end Web solutions since 2011."
   keywords: [Blog, Portfolio]
   author: Dorian Neto
-  images: []
+  images: ["images/dorianneto-thumbnail.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
