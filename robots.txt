@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dorianneto.github.io/sitemap.xml

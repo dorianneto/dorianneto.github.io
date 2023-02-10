@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>yoda conditions on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/yoda-conditions/</link>
+    <description>Recent content in yoda conditions on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/yoda-conditions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usar ou não usar Yoda Conditions, eis a questão</title>
+      <link>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</guid>
+      <description>Photo credit: @nadir_syzygy - https://unsplash.com/@nadir_syzygy Recentemente me deparei com um comentário de um colega do trabalho em um Pull Request onde ele estava sugerindo a utilização de Yoda Conditions. Faz um bom tempo desde a última vez que ouvi falar sobre esse programming style, por conta disso (e também por eu achar a utilização bastante controvérsia) resolvi escrever um pouco sobre o assunto.
+O que é Yoda Conditions? Yoda Conditions (também conhecido como &amp;ldquo;Yoda Notation&amp;rdquo;) evita problemas gerados por erros de escrita em expressões condicionais de igualdade.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>zend on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/zend/</link>
+    <description>Recent content in zend on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/zend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guia de sobrevivência de um ZCPE/ZCE</title>
+      <link>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</guid>
+      <description>Quem me acompanha sabe que sempre tive uma vontade muito grande de ter a tão sonhada ZCPE (Zend Certification PHP Engineer), e é com muita alegria que anuncio que consegui!
+Após essa conquista, decidi compartilhar um guia de sobrevivência para quem quer se tornar um ZCPE ou ZCE, onde irei descrever um passo a passo de como você deve se preparar para conseguir sobreviver a essa certificação.
+Vamos nessa!
+O exame é difícil?</description>
+    </item>
+    
+    <item>
+      <title>A hora de tirar sua certificação é agora!</title>
+      <link>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</guid>
+      <description>Acessei o twitter hoje de manhã e me deparei com o seguinte tweet:
+2015 é O Ano da Certificação PHP! http://t.co/7nCEbKeEiC pic.twitter.com/DMVeV06i0Y
+&amp;mdash; ABRAPHP (@ABRAPHP_Oficial) 11 de março de 2015 Acho que todos os desenvolvedores PHP sabem(ou deveriam saber) a importância que uma certificação ZCPE tem no mercado e também para nosso ego como desenvolvedor, e nada melhor e mais incentivador do que ver vários grupos fortes se juntando para nos incentivar.</description>
+    </item>
+    
+  </channel>
+</rss>

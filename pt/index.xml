@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/</link>
+    <description>Recent content on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usar ou não usar Yoda Conditions, eis a questão</title>
+      <link>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</guid>
+      <description>Photo credit: @nadir_syzygy - https://unsplash.com/@nadir_syzygy Recentemente me deparei com um comentário de um colega do trabalho em um Pull Request onde ele estava sugerindo a utilização de Yoda Conditions. Faz um bom tempo desde a última vez que ouvi falar sobre esse programming style, por conta disso (e também por eu achar a utilização bastante controvérsia) resolvi escrever um pouco sobre o assunto.
+O que é Yoda Conditions? Yoda Conditions (também conhecido como &amp;ldquo;Yoda Notation&amp;rdquo;) evita problemas gerados por erros de escrita em expressões condicionais de igualdade.</description>
+    </item>
+    
+    <item>
+      <title>Não limite suas oportunidades a uma linguagem</title>
+      <link>https://dorianneto.github.io/pt/posts/nao-limite-suas-oportunidades-a-uma-linguagem/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/nao-limite-suas-oportunidades-a-uma-linguagem/</guid>
+      <description>Acho curioso o fato de programadores carregarem muitas dores em comum. Ao longo dos anos percebi que muitas das dúvidas e questionamentos que eu tinha sobre o rumo da minha carreira era compartilhado por diversas pessoas que também já tinham tido, estavam tendo ou ainda teriam.
+Sei que são vários os motivos, mas hoje quero falar um pouco sobre o apego a linguagens de programação e porque você não deve deixar que isso limite suas oportunidades profissionais.</description>
+    </item>
+    
+    <item>
+      <title>Refatorando código com Extract Method</title>
+      <link>https://dorianneto.github.io/pt/posts/refatorando-codigo-com-extract-method/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/refatorando-codigo-com-extract-method/</guid>
+      <description>Com certeza você já deve ter visto, ou até mesmo criou, funções ou métodos que possuem diversas responsabilidades. Não é novidade para nenhum de nós que isso não é uma boa prática e que pode causar diversos problemas na estrutura do código.
+Existe uma analogia com a Fórmula 1 que aborda esse tipo de problema. Quando um carro faz uma parada (Pit stop), diversas pessoas exercem uma tarefa para que o resultado final do objetivo seja atingido (trocar peças e reabastecer o carro), onde cada uma dessas pessoas possui uma única responsabilidade.</description>
+    </item>
+    
+    <item>
+      <title>Torne-se um ninja das funções com Early Return</title>
+      <link>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</guid>
+      <description>Escrever código elegante e legível é um dos nossos objetivos diariamente, porém, infelizmente isso não ocorre na maioria das vezes. Pressão para entrega de features, cansaço etc, são alguns dos vários fatores que podem contribuir para que esse objetivo não seja alcançado.
+Ao longo dos anos, diversos conceitos de boas práticas foram documentados e quando aplicados em nosso dia a dia facilitam conquistar esse objetivo.
+Hoje quero abordar um conceito que irá te transformar em um ninja das funções, fazendo com que seu código fique mais rápido (like a ninja!</description>
+    </item>
+    
+    <item>
+      <title>Liberte a produtividade que existe em você!</title>
+      <link>https://dorianneto.github.io/pt/posts/liberte-a-produtividade-que-existe-em-voce/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/liberte-a-produtividade-que-existe-em-voce/</guid>
+      <description>Me alegra saber que se você está lendo esse texto é porque você é uma das milhares de pessoas que buscam diariamente se tornarem mais produtivas no trabalho, estudos etc.
+Peço desculpas se você veio com o intuito de encontrar uma fórmula para a produtividade e também por te falar isso: Não existe fórmula.
+E se eu te disser que essa tal produtividade está ai dentro de você, pronta para ser libertada, você acredita?</description>
+    </item>
+    
+    <item>
+      <title>Guia de sobrevivência de um ZCPE/ZCE</title>
+      <link>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</guid>
+      <description>Quem me acompanha sabe que sempre tive uma vontade muito grande de ter a tão sonhada ZCPE (Zend Certification PHP Engineer), e é com muita alegria que anuncio que consegui!
+Após essa conquista, decidi compartilhar um guia de sobrevivência para quem quer se tornar um ZCPE ou ZCE, onde irei descrever um passo a passo de como você deve se preparar para conseguir sobreviver a essa certificação.
+Vamos nessa!
+O exame é difícil?</description>
+    </item>
+    
+    <item>
+      <title>Cuidado com a porta ao sair!</title>
+      <link>https://dorianneto.github.io/pt/posts/cuidado-com-a-porta-ao-sair/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/cuidado-com-a-porta-ao-sair/</guid>
+      <description>Infelizmente, em muitas ocasiões, nós programadores somos relacionados a experiências ruins, que vão desde projetos inacabados a &amp;ldquo;abandono do barco&amp;rdquo;. Felizmente, essa imagem pode ser melhorada, pois tudo depende das nossas atitudes! E é por isso que estou aqui para compartilhar um dos maiores ensinamentos que tive esse ano:
+&amp;ldquo;Nunca tranque a porta ao sair, e se fizer isso, volte e certifique-se de deixá-la aberta.&amp;rdquo;
+Quem nunca ouviu falar de um colega que saiu que nem um louco da atual empresa pois conseguiu uma oferta melhor?</description>
+    </item>
+    
+    <item>
+      <title>Slides: Object Calisthenics</title>
+      <link>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</guid>
+      <description>Em minhas buscas por aperfeiçoar cada vez mais a forma como eu produzo código, encontrei uma palestra no youtube do @guilhermeblanco falando sobre Object Calisthenics. Infelizmente o vídeo não exibe a palestra por completo, mas pelo fato do assunto ter me interessado bastante, resolvi estudar a fundo para aprender e me sentir confortável em passar o conteúdo para outras pessoas. Abordei esse tema em 2 eventos (Darkmira Tour Fortaleza e PHP com Rapadura em Quixadá) e tive um feedback muito bom!</description>
+    </item>
+    
+    <item>
+      <title>PHP 7: O que há de novidades?</title>
+      <link>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</guid>
+      <description>Já faz algum tempo que eu estava querendo escrever sobre as novas features do PHP 7, mas esperei para entregar em primeira mão aos guerreiros que foram para o 1º Encontro de desenvolvedores PHP em Fortaleza!
+Como prometi no dia do evento, deixarei disponibilizado o link dos slides.
+Essa nova versão, além de várias novas features, vem trazendo algumas funções modificadas, novas funções, algumas mudanças significativas e uma performance absurda! Existem muitos posts publicados explicando sobre tudo isso, mas nada melhor do que a página do manual do PHP que explica detalhadamente tudo isso.</description>
+    </item>
+    
+    <item>
+      <title>Servidor web embutido, porque eu não te usei antes?!</title>
+      <link>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</guid>
+      <description>Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp, etc) para meu ambiente de desenvolvimento local e pelo fato de muitos desses softwares utilizarem o apache como servidor web, acabei me acostumando a utilizá-lo. Quando o Nginx foi lançado, tentei utilizá-lo para desenvolvimento local, mas devido a vida louca de entregas e estudos, acabei optando por algo mais rápido e fácil de se configurar e utilizar.</description>
+    </item>
+    
+    <item>
+      <title>Links úteis para iniciar no GIT</title>
+      <link>https://dorianneto.github.io/pt/posts/links-uteis-para-iniciar-no-git/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/links-uteis-para-iniciar-no-git/</guid>
+      <description>Nesse sábado que passou (16/04), tive o prazer de palestrar no evento Flisol, o maior evento Latino Americano de Instalação de Software Livre.
+O FLISoL é um evento internacional, realizado anualmente, e que ocorre de forma simultânea em diversas cidades da América Latina. O FLISoL é um evento descentralizado, onde diversas comunidades organizam e realizam seu festival, de forma voluntária, tendo como principal objetivo promover o uso de software livre, apresentando sua filosofia, alcance, avanços e desenvolvimento ao público em geral.</description>
+    </item>
+    
+    <item>
+      <title>Problemas com versões do PHP nunca mais!</title>
+      <link>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</link>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</guid>
+      <description>Lembra quando você aceitou refazer uma área do sistema daquele cliente e quando baixou o projeto viu que o mesmo roda na 5.2 e você só tem a 5.4 instalada? Pois é, esse ódio eu não tenho mais e nem quero que você tenha, pois depois de muito quebrar a cabeça e horas de sono perdidas, vou compartilhar meu momento de extrema felicidade por ter conseguido instalar um ambiente de desenvolvimento com múltiplas versões do PHP rodando!</description>
+    </item>
+    
+    <item>
+      <title>A hora de tirar sua certificação é agora!</title>
+      <link>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</guid>
+      <description>Acessei o twitter hoje de manhã e me deparei com o seguinte tweet:
+2015 é O Ano da Certificação PHP! http://t.co/7nCEbKeEiC pic.twitter.com/DMVeV06i0Y
+&amp;mdash; ABRAPHP (@ABRAPHP_Oficial) 11 de março de 2015 Acho que todos os desenvolvedores PHP sabem(ou deveriam saber) a importância que uma certificação ZCPE tem no mercado e também para nosso ego como desenvolvedor, e nada melhor e mais incentivador do que ver vários grupos fortes se juntando para nos incentivar.</description>
+    </item>
+    
+    <item>
+      <title>Entrust - Class not found</title>
+      <link>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</guid>
+      <description>Ultimamente venho utilizando bastante o Laravel para meus projetos pessoais e do trabalho. Sem dúvida é um framework fantástico e nesse período de utilização percebi que não é exagero o que dizem de bom sobre ele.
+Hoje venho trazer uma dica bem simples a respeito da utlização do pacote Entrust com namespace. Ao utilizar as classes do entrust (normalmente Permission e Role) com namespace você pode ter dificuldade em fazer com que o Laravel encontre essas classes, resultando no seguinte erro: Class not found.</description>
+    </item>
+    
+    <item>
+      <title>Atribuição e Referência - Você realmente sabe o que é e como funcionam ?</title>
+      <link>https://dorianneto.github.io/pt/posts/atribuicao-e-referencia-voce-realmente-sabe-o-que-e-e-como-funcionam/</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/atribuicao-e-referencia-voce-realmente-sabe-o-que-e-e-como-funcionam/</guid>
+      <description>Estava lendo alguns posts em um fórum e acabei me deparando com um dúvida que para iniciantes e até para algumas pessoas experientes é bem comum.
+Você realmente sabe qual a diferença entre Atribuição e Referência ?
+Atribuição Uma das primeiras coisas que você aprende ao estudar qualquer linguagem de programação é atribuir um valor a alguma variável. Esse processo consiste em copiar um valor para um determinado ponto da memória, onde esse valor será chamado através do nome da variável, que é a forma de identificar o ponto armazenado na memória.</description>
+    </item>
+    
+    <item>
+      <title>Filtragem de dados - Introdução e Manipulação de tipos</title>
+      <link>https://dorianneto.github.io/pt/posts/filtragem-de-dados-introducao-e-manipulacao-de-tipos/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/filtragem-de-dados-introducao-e-manipulacao-de-tipos/</guid>
+      <description>Vejo muitos desenvolvedores recebendo dados de fontes externas ou até mesmo de fontes internas de uma aplicação e não fazem a devida filtragem desses dados. Mal sabem eles que a não filtragem dos dados pode comprometer seriamente a segurança de uma aplicação, deixando graves brechas para que usuários mal intencionados façam o que quiser.
+E o que é exatamente filtragem de dados ? É o processo onde você irá definir que tipo de dado você espera como retorno.</description>
+    </item>
+    
+    <item>
+      <title>Enfim minha primeira palestra</title>
+      <link>https://dorianneto.github.io/pt/posts/enfim-minha-primeira-palestra/</link>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/enfim-minha-primeira-palestra/</guid>
+      <description>Sempre tive muita vontade de passar conteúdo para os outros, não importando o meio utilizado. A palestra é algo que eu sempre sonhei mas nunca tive oportunidade de praticar. Por coincidência, a galera do trabalho decidiu que toda sexta feira alguém iria dar uma palestra sobre um determinado assunto, e foi ai que surgiu minha grande oportunidade. Para muitos isso pode soar estranho, mas para mim é apenas o começo de muitas que ainda virão.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://dorianneto.github.io/pt/posts/hello-world/</link>
+      <pubDate>Wed, 09 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/hello-world/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Uma longa viagem começa com o primeiro passo.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Palestras</title>
+      <link>https://dorianneto.github.io/pt/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/talks/</guid>
+      <description>2017 COMSOLiD 10 minicurso Minicurso ministrado em 3 dias sobre como desenvolver um sistema de ticket (help desk) usando Laravel Slides: https://slides.com/dorianneto/minicurso-laraticket Repositório: https://github.com/dorianneto/laraticket Demo: http://bit.ly/laraticket-heroku COMSOLiD 10 palestra Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida Slides: http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas Esquenta PHPeste palestra Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida Slides: http://slides.com/dorianneto/produtividade-e-qualidade-de-vida-nao-sao-inimigas RDC Day 2017 - II Encontro de Redes de Computadores palestra Palestra sobre minha visão de como a produtividade possui relação com a nossa qualidade de vida Slides: http://slides.</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://dorianneto.github.io/pt/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/about/</guid>
+      <description>Olá 👋!
+Me chamo Dorian Neto, tenho 29 anos, sou Brasileiro e nasci e fui criado em Fortaleza, CE. Atualmente, moro em Newfoundland &amp;amp; Labrador, Canadá e trabalho como Engenheiro de Software Sênior na HeyOrca 🐳.
+Desde 2011 me considero uma pessoa realizada ❤️ por trabalhar como desenvolvedor. Dentre os vários pontos que me fascinam na área, resolver problemas de negócio através do planejamento e desenvolvimento de soluções digitais escaláveis, consistentes, concisas e velozes é o que faz meus olhos brilharem ⭐.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>early return on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/early-return/</link>
+    <description>Recent content in early return on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/early-return/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Torne-se um ninja das funções com Early Return</title>
+      <link>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</guid>
+      <description>Escrever código elegante e legível é um dos nossos objetivos diariamente, porém, infelizmente isso não ocorre na maioria das vezes. Pressão para entrega de features, cansaço etc, são alguns dos vários fatores que podem contribuir para que esse objetivo não seja alcançado.
+Ao longo dos anos, diversos conceitos de boas práticas foram documentados e quando aplicados em nosso dia a dia facilitam conquistar esse objetivo.
+Hoje quero abordar um conceito que irá te transformar em um ninja das funções, fazendo com que seu código fique mais rápido (like a ninja!</description>
+    </item>
+    
+  </channel>
+</rss>

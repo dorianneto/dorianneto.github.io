@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>github on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/github/</link>
+    <description>Recent content in github on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Mon, 18 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links úteis para iniciar no GIT</title>
+      <link>https://dorianneto.github.io/pt/posts/links-uteis-para-iniciar-no-git/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/links-uteis-para-iniciar-no-git/</guid>
+      <description>Nesse sábado que passou (16/04), tive o prazer de palestrar no evento Flisol, o maior evento Latino Americano de Instalação de Software Livre.
+O FLISoL é um evento internacional, realizado anualmente, e que ocorre de forma simultânea em diversas cidades da América Latina. O FLISoL é um evento descentralizado, onde diversas comunidades organizam e realizam seu festival, de forma voluntária, tendo como principal objetivo promover o uso de software livre, apresentando sua filosofia, alcance, avanços e desenvolvimento ao público em geral.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>php7 on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/php7/</link>
+    <description>Recent content in php7 on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Sun, 29 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/php7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP 7: O que há de novidades?</title>
+      <link>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</guid>
+      <description>Já faz algum tempo que eu estava querendo escrever sobre as novas features do PHP 7, mas esperei para entregar em primeira mão aos guerreiros que foram para o 1º Encontro de desenvolvedores PHP em Fortaleza!
+Como prometi no dia do evento, deixarei disponibilizado o link dos slides.
+Essa nova versão, além de várias novas features, vem trazendo algumas funções modificadas, novas funções, algumas mudanças significativas e uma performance absurda! Existem muitos posts publicados explicando sobre tudo isso, mas nada melhor do que a página do manual do PHP que explica detalhadamente tudo isso.</description>
+    </item>
+    
+  </channel>
+</rss>

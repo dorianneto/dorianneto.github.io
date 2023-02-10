@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>entrust on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/entrust/</link>
+    <description>Recent content in entrust on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Wed, 29 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/entrust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrust - Class not found</title>
+      <link>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</guid>
+      <description>Ultimamente venho utilizando bastante o Laravel para meus projetos pessoais e do trabalho. Sem dúvida é um framework fantástico e nesse período de utilização percebi que não é exagero o que dizem de bom sobre ele.
+Hoje venho trazer uma dica bem simples a respeito da utlização do pacote Entrust com namespace. Ao utilizar as classes do entrust (normalmente Permission e Role) com namespace você pode ter dificuldade em fazer com que o Laravel encontre essas classes, resultando no seguinte erro: Class not found.</description>
+    </item>
+    
+  </channel>
+</rss>

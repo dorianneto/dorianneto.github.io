@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>boas praticas on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/boas-praticas/</link>
+    <description>Recent content in boas praticas on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/boas-praticas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usar ou não usar Yoda Conditions, eis a questão</title>
+      <link>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/usar-ou-nao-usar-yoda-conditions-eis-a-questao/</guid>
+      <description>Photo credit: @nadir_syzygy - https://unsplash.com/@nadir_syzygy Recentemente me deparei com um comentário de um colega do trabalho em um Pull Request onde ele estava sugerindo a utilização de Yoda Conditions. Faz um bom tempo desde a última vez que ouvi falar sobre esse programming style, por conta disso (e também por eu achar a utilização bastante controvérsia) resolvi escrever um pouco sobre o assunto.
+O que é Yoda Conditions? Yoda Conditions (também conhecido como &amp;ldquo;Yoda Notation&amp;rdquo;) evita problemas gerados por erros de escrita em expressões condicionais de igualdade.</description>
+    </item>
+    
+    <item>
+      <title>Refatorando código com Extract Method</title>
+      <link>https://dorianneto.github.io/pt/posts/refatorando-codigo-com-extract-method/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/refatorando-codigo-com-extract-method/</guid>
+      <description>Com certeza você já deve ter visto, ou até mesmo criou, funções ou métodos que possuem diversas responsabilidades. Não é novidade para nenhum de nós que isso não é uma boa prática e que pode causar diversos problemas na estrutura do código.
+Existe uma analogia com a Fórmula 1 que aborda esse tipo de problema. Quando um carro faz uma parada (Pit stop), diversas pessoas exercem uma tarefa para que o resultado final do objetivo seja atingido (trocar peças e reabastecer o carro), onde cada uma dessas pessoas possui uma única responsabilidade.</description>
+    </item>
+    
+    <item>
+      <title>Torne-se um ninja das funções com Early Return</title>
+      <link>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/torne-se-um-ninja-das-funcoes-com-early-return/</guid>
+      <description>Escrever código elegante e legível é um dos nossos objetivos diariamente, porém, infelizmente isso não ocorre na maioria das vezes. Pressão para entrega de features, cansaço etc, são alguns dos vários fatores que podem contribuir para que esse objetivo não seja alcançado.
+Ao longo dos anos, diversos conceitos de boas práticas foram documentados e quando aplicados em nosso dia a dia facilitam conquistar esse objetivo.
+Hoje quero abordar um conceito que irá te transformar em um ninja das funções, fazendo com que seu código fique mais rápido (like a ninja!</description>
+    </item>
+    
+    <item>
+      <title>Slides: Object Calisthenics</title>
+      <link>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</guid>
+      <description>Em minhas buscas por aperfeiçoar cada vez mais a forma como eu produzo código, encontrei uma palestra no youtube do @guilhermeblanco falando sobre Object Calisthenics. Infelizmente o vídeo não exibe a palestra por completo, mas pelo fato do assunto ter me interessado bastante, resolvi estudar a fundo para aprender e me sentir confortável em passar o conteúdo para outras pessoas. Abordei esse tema em 2 eventos (Darkmira Tour Fortaleza e PHP com Rapadura em Quixadá) e tive um feedback muito bom!</description>
+    </item>
+    
+  </channel>
+</rss>

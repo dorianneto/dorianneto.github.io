@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>palestra on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/palestra/</link>
+    <description>Recent content in palestra on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/palestra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slides: Object Calisthenics</title>
+      <link>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/slides-object-calisthenics/</guid>
+      <description>Em minhas buscas por aperfeiçoar cada vez mais a forma como eu produzo código, encontrei uma palestra no youtube do @guilhermeblanco falando sobre Object Calisthenics. Infelizmente o vídeo não exibe a palestra por completo, mas pelo fato do assunto ter me interessado bastante, resolvi estudar a fundo para aprender e me sentir confortável em passar o conteúdo para outras pessoas. Abordei esse tema em 2 eventos (Darkmira Tour Fortaleza e PHP com Rapadura em Quixadá) e tive um feedback muito bom!</description>
+    </item>
+    
+    <item>
+      <title>Enfim minha primeira palestra</title>
+      <link>https://dorianneto.github.io/pt/posts/enfim-minha-primeira-palestra/</link>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/enfim-minha-primeira-palestra/</guid>
+      <description>Sempre tive muita vontade de passar conteúdo para os outros, não importando o meio utilizado. A palestra é algo que eu sempre sonhei mas nunca tive oportunidade de praticar. Por coincidência, a galera do trabalho decidiu que toda sexta feira alguém iria dar uma palestra sobre um determinado assunto, e foi ai que surgiu minha grande oportunidade. Para muitos isso pode soar estranho, mas para mim é apenas o começo de muitas que ainda virão.</description>
+    </item>
+    
+  </channel>
+</rss>

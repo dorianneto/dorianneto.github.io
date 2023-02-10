@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>php on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/php/</link>
+    <description>Recent content in php on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guia de sobrevivência de um ZCPE/ZCE</title>
+      <link>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/</guid>
+      <description>Quem me acompanha sabe que sempre tive uma vontade muito grande de ter a tão sonhada ZCPE (Zend Certification PHP Engineer), e é com muita alegria que anuncio que consegui!
+Após essa conquista, decidi compartilhar um guia de sobrevivência para quem quer se tornar um ZCPE ou ZCE, onde irei descrever um passo a passo de como você deve se preparar para conseguir sobreviver a essa certificação.
+Vamos nessa!
+O exame é difícil?</description>
+    </item>
+    
+    <item>
+      <title>PHP 7: O que há de novidades?</title>
+      <link>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/php-7-o-que-ha-de-novidades/</guid>
+      <description>Já faz algum tempo que eu estava querendo escrever sobre as novas features do PHP 7, mas esperei para entregar em primeira mão aos guerreiros que foram para o 1º Encontro de desenvolvedores PHP em Fortaleza!
+Como prometi no dia do evento, deixarei disponibilizado o link dos slides.
+Essa nova versão, além de várias novas features, vem trazendo algumas funções modificadas, novas funções, algumas mudanças significativas e uma performance absurda! Existem muitos posts publicados explicando sobre tudo isso, mas nada melhor do que a página do manual do PHP que explica detalhadamente tudo isso.</description>
+    </item>
+    
+    <item>
+      <title>Servidor web embutido, porque eu não te usei antes?!</title>
+      <link>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</guid>
+      <description>Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp, etc) para meu ambiente de desenvolvimento local e pelo fato de muitos desses softwares utilizarem o apache como servidor web, acabei me acostumando a utilizá-lo. Quando o Nginx foi lançado, tentei utilizá-lo para desenvolvimento local, mas devido a vida louca de entregas e estudos, acabei optando por algo mais rápido e fácil de se configurar e utilizar.</description>
+    </item>
+    
+    <item>
+      <title>Problemas com versões do PHP nunca mais!</title>
+      <link>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</link>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</guid>
+      <description>Lembra quando você aceitou refazer uma área do sistema daquele cliente e quando baixou o projeto viu que o mesmo roda na 5.2 e você só tem a 5.4 instalada? Pois é, esse ódio eu não tenho mais e nem quero que você tenha, pois depois de muito quebrar a cabeça e horas de sono perdidas, vou compartilhar meu momento de extrema felicidade por ter conseguido instalar um ambiente de desenvolvimento com múltiplas versões do PHP rodando!</description>
+    </item>
+    
+    <item>
+      <title>A hora de tirar sua certificação é agora!</title>
+      <link>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/a-hora-de-tirar-sua-certificacao-e-agora/</guid>
+      <description>Acessei o twitter hoje de manhã e me deparei com o seguinte tweet:
+2015 é O Ano da Certificação PHP! http://t.co/7nCEbKeEiC pic.twitter.com/DMVeV06i0Y
+&amp;mdash; ABRAPHP (@ABRAPHP_Oficial) 11 de março de 2015 Acho que todos os desenvolvedores PHP sabem(ou deveriam saber) a importância que uma certificação ZCPE tem no mercado e também para nosso ego como desenvolvedor, e nada melhor e mais incentivador do que ver vários grupos fortes se juntando para nos incentivar.</description>
+    </item>
+    
+    <item>
+      <title>Entrust - Class not found</title>
+      <link>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/entrust-class-not-found/</guid>
+      <description>Ultimamente venho utilizando bastante o Laravel para meus projetos pessoais e do trabalho. Sem dúvida é um framework fantástico e nesse período de utilização percebi que não é exagero o que dizem de bom sobre ele.
+Hoje venho trazer uma dica bem simples a respeito da utlização do pacote Entrust com namespace. Ao utilizar as classes do entrust (normalmente Permission e Role) com namespace você pode ter dificuldade em fazer com que o Laravel encontre essas classes, resultando no seguinte erro: Class not found.</description>
+    </item>
+    
+    <item>
+      <title>Atribuição e Referência - Você realmente sabe o que é e como funcionam ?</title>
+      <link>https://dorianneto.github.io/pt/posts/atribuicao-e-referencia-voce-realmente-sabe-o-que-e-e-como-funcionam/</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/atribuicao-e-referencia-voce-realmente-sabe-o-que-e-e-como-funcionam/</guid>
+      <description>Estava lendo alguns posts em um fórum e acabei me deparando com um dúvida que para iniciantes e até para algumas pessoas experientes é bem comum.
+Você realmente sabe qual a diferença entre Atribuição e Referência ?
+Atribuição Uma das primeiras coisas que você aprende ao estudar qualquer linguagem de programação é atribuir um valor a alguma variável. Esse processo consiste em copiar um valor para um determinado ponto da memória, onde esse valor será chamado através do nome da variável, que é a forma de identificar o ponto armazenado na memória.</description>
+    </item>
+    
+    <item>
+      <title>Filtragem de dados - Introdução e Manipulação de tipos</title>
+      <link>https://dorianneto.github.io/pt/posts/filtragem-de-dados-introducao-e-manipulacao-de-tipos/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/filtragem-de-dados-introducao-e-manipulacao-de-tipos/</guid>
+      <description>Vejo muitos desenvolvedores recebendo dados de fontes externas ou até mesmo de fontes internas de uma aplicação e não fazem a devida filtragem desses dados. Mal sabem eles que a não filtragem dos dados pode comprometer seriamente a segurança de uma aplicação, deixando graves brechas para que usuários mal intencionados façam o que quiser.
+E o que é exatamente filtragem de dados ? É o processo onde você irá definir que tipo de dado você espera como retorno.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>servidor on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/servidor/</link>
+    <description>Recent content in servidor on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Sat, 23 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/servidor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servidor web embutido, porque eu não te usei antes?!</title>
+      <link>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/servidor-web-embutido-porque-eu-nao-te-usei-antes/</guid>
+      <description>Já faz algum tempo que me acostumei a utilizar softwares de servidor web (lamp, xampp, wamp, etc) para meu ambiente de desenvolvimento local e pelo fato de muitos desses softwares utilizarem o apache como servidor web, acabei me acostumando a utilizá-lo. Quando o Nginx foi lançado, tentei utilizá-lo para desenvolvimento local, mas devido a vida louca de entregas e estudos, acabei optando por algo mais rápido e fácil de se configurar e utilizar.</description>
+    </item>
+    
+  </channel>
+</rss>

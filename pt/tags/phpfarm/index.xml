@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>phpfarm on Dorian Neto</title>
+    <link>https://dorianneto.github.io/pt/tags/phpfarm/</link>
+    <description>Recent content in phpfarm on Dorian Neto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2013-2022 Dorian Neto</copyright>
+    <lastBuildDate>Tue, 31 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://dorianneto.github.io/pt/tags/phpfarm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problemas com versões do PHP nunca mais!</title>
+      <link>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</link>
+      <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dorianneto.github.io/pt/posts/problemas-com-versoes-do-php-nunca-mais/</guid>
+      <description>Lembra quando você aceitou refazer uma área do sistema daquele cliente e quando baixou o projeto viu que o mesmo roda na 5.2 e você só tem a 5.4 instalada? Pois é, esse ódio eu não tenho mais e nem quero que você tenha, pois depois de muito quebrar a cabeça e horas de sono perdidas, vou compartilhar meu momento de extrema felicidade por ter conseguido instalar um ambiente de desenvolvimento com múltiplas versões do PHP rodando!</description>
+    </item>
+    
+  </channel>
+</rss>
