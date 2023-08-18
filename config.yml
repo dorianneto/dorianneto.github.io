@@ -22,35 +22,36 @@ minify:
 languages:
   en:
     languageName: ":us:"
-    languageAltTitle: "English"
     weight: 1
     taxonomies:
       tag: tags
       series: series
+    params:
+      languageAltTitle: "English"
   pt:
     params:
       description: "Sou Engenheiro de Software apaixonado por Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
+      languageAltTitle: "Português Brasileiro"
+      profileMode:
+        enabled: true
+        title: "Olá \U0001F44B"
+        imageUrl: "images/dorianneto-thumbnail.jpg"
+        imageTitle: Esse sou eu, Dorian
+        imageWidth: 240
+        imageHeight: 240
+        subtitle: "Sou Engenheiro de Software apaixonado por Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
+        buttons:
+          - name: Posts
+            url: posts
+          - name: Palestras
+            url: talks
+          - name: Sobre
+            url: about
     languageName: ":brazil:"
-    languageAltTitle: "Português Brasileiro"
     weight: 2
     taxonomies:
       tag: tags
       series: series
-    profileMode:
-      enabled: true
-      title: "Olá \U0001F44B"
-      imageUrl: "images/dorianneto-thumbnail.jpg"
-      imageTitle: Esse sou eu, Dorian
-      imageWidth: 240
-      imageHeight: 240
-      subtitle: "Sou Engenheiro de Software apaixonado por Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
-      buttons:
-        - name: Posts
-          url: posts
-        - name: Palestras
-          url: talks
-        - name: Sobre
-          url: about
     menu:
       main:
         - identifier: archive
