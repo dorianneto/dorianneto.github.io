@@ -1,9 +1,10 @@
 baseURL: "https://dorianneto.github.io"
 title: Dorian Neto
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
-Copyright: "&copy; 2013-2022 Dorian Neto"
+Copyright: "&copy; 2013-2024 Dorian Neto"
 disqusShortname: dorianneto
 
 enableInlineShortcodes: true
@@ -66,10 +67,10 @@ languages:
           name: Tags
           url: /tags/
           weight: 30
-        - identifier: certificate
-          name: ZCPE
-          url: https://www.zend-zce.com/en/yellow-pages/ZEND030288
-          weight: 40
+        # - identifier: certificate
+        #   name: ZCPE
+        #   url: https://www.zend-zce.com/en/yellow-pages/ZEND030288
+        #   weight: 40
 
 outputs:
   home:
@@ -156,24 +157,27 @@ params:
 
 menu:
   main:
-    # - identifier: archive
-    #   name: Archive
-    #   url: /archives/
-    #   weight: 10
-    # - identifier: search
-    #   name: Search
-    #   url: /search/
-    #   weight: 20
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags/
-    #   weight: 30
-    - identifier: certificate
-      name: ZCPE
-      url: https://www.zend-zce.com/en/yellow-pages/ZEND030288
-      weight: 40
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    # - identifier: certificate
+    #   name: ZCPE
+    #   url: https://www.zend-zce.com/en/yellow-pages/ZEND030288
+    #   weight: 40
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     anchorLineNos: true
