@@ -10,7 +10,7 @@ disableShare: true
 
 Olá :wave:
 
-Me chamo Dorian Neto, tenho 31 anos, sou Brasileiro e nasci e fui criado em Fortaleza, CE. Atualmente, moro em [Newfoundland & Labrador, Canadá](https://goo.gl/maps/eGP98tZ28c6jEUu87) e trabalho como Engenheiro de Software Sênior na [HeyOrca](https://heyorca.com/) :whale:.
+Me chamo Dorian Neto, tenho 31 anos, sou Brasileiro e nasci e fui criado em Fortaleza, CE. Atualmente, moro em [Newfoundland & Labrador, Canadá](https://goo.gl/maps/eGP98tZ28c6jEUu87) e trabalho como Lead Software Developer na [Enaimco](https://enaimco.com/).
 
 Desde 2011 me considero uma pessoa realizada :heart: por trabalhar como desenvolvedor. Dentre os vários pontos que me fascinam na área, **resolver problemas de negócio através do planejamento e desenvolvimento de soluções digitais escaláveis, consistentes, concisas e velozes** é o que faz meus olhos brilharem :star:.
 

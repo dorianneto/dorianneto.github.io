@@ -4,7 +4,7 @@ pagination:
   pagerSize: 5
 theme: PaperMod
 
-Copyright: "&copy; 2013-2024 Dorian Neto"
+Copyright: "&copy; 2013-2025 Dorian Neto"
 disqusShortname: dorianneto
 
 enableInlineShortcodes: true
