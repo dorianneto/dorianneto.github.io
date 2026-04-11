@@ -31,7 +31,7 @@ languages:
       languageAltTitle: "English"
   pt:
     params:
-      description: "Engenheiro de Software apaixonado por Backend e Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
+      description: "Sou um engenheiro de Software apaixonado por Backend e Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
       languageAltTitle: "Português Brasileiro"
       profileMode:
         enabled: true
@@ -40,7 +40,7 @@ languages:
         imageTitle: Esse sou eu, Dorian
         imageWidth: 240
         imageHeight: 240
-        subtitle: "Engenheiro de Software apaixonado por Backend e Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
+        subtitle: "Sou um engenheiro de Software apaixonado por Backend e Arquitetura de Software, que desde 2011 projeta e desenvolve soluções Web de ponta a ponta."
         buttons:
           - name: Posts
             url: posts
@@ -81,7 +81,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Dorian Neto
-  description: "Software Engineer passionate about Backend and Software Architecture, who has been designing and developing end-to-end Web solutions since 2011."
+  description: "I'm a Software Engineer passionate about Backend and Software Architecture, who has been designing and developing end-to-end Web solutions since 2011."
   keywords: [Blog, Portfolio]
   author: Dorian Neto
   images: ["images/dorianneto-thumbnail.jpg"]
@@ -124,7 +124,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Hi there \U0001F44B"
-    subtitle: "Software Engineer passionate about Backend and Software Architecture, who has been designing and developing end-to-end Web solutions since 2011."
+    subtitle: "I'm a Software Engineer passionate about Backend and Software Architecture, who has been designing and developing end-to-end Web solutions since 2011."
     imageUrl: "images/dorianneto-thumbnail.jpg"
     imageWidth: 240
     imageHeight: 240
@@ -142,8 +142,6 @@ params:
       url: "https://github.com/dorianneto"
     - name: linkedin
       url: "https://www.linkedin.com/in/dorianneto"
-    - name: twitter
-      url: "https://twitter.com/doriansneto"
 
   cover:
     hidden: true # hide everywhere but not in structured data
