@@ -9,6 +9,13 @@ disableShare: true
 ---
 > _Note: The slides and some contents found in here were wrote in Portuguese. I would be more than happy to clarify any questions you have, so feel free to send me an email doriansampaioneto@gmail.com_ :slightly_smiling_face:
 
+## 2025
+
+### The Murphy Centre `talk`
+
+- I gave a presentation to students from the TechPrep program about my perspective on the tech sector.
+- Slides: https://slides.com/dorianneto/tech-sector
+
 ## 2017
 
 ### COMSOLiD 10 `course`

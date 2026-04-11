@@ -8,6 +8,13 @@ showtoc: false
 disableShare: true
 ---
 
+## 2025
+
+### The Murphy Centre `talk`
+
+- Palestra para estudantes do programa TechPrep sobre minha perspectiva da indústria de TI
+- Slides: https://slides.com/dorianneto/tech-sector
+
 ## 2017
 
 ### COMSOLiD 10 `minicurso`
