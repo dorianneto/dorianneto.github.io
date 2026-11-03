@@ -22,7 +22,7 @@ minify:
 
 languages:
   en:
-    languageName: ":us:"
+    label: ":us:"
     weight: 1
     taxonomies:
       tag: tags
@@ -48,7 +48,9 @@ languages:
             url: talks
           - name: Sobre
             url: about
-    languageName: ":brazil:"
+          - name: Mentoria
+            url: https://calendar.app.google/RbUaP9SAiacZJ9NF7
+    label: ":brazil:"
     weight: 2
     taxonomies:
       tag: tags
@@ -130,12 +132,12 @@ params:
     imageHeight: 240
     imageTitle: It's me, Dorian
     buttons:
-      # - name: Posts
-      #   url: posts
       - name: Talks
         url: talks
       - name: About
         url: about
+      - name: Mentorship
+        url: https://calendar.app.google/RbUaP9SAiacZJ9NF7
 
   socialIcons:
     - name: github
