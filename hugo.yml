@@ -49,7 +49,7 @@ languages:
           - name: Sobre
             url: about
           - name: Mentoria
-            url: https://calendar.app.google/RbUaP9SAiacZJ9NF7
+            url: mentorship
     label: ":brazil:"
     weight: 2
     taxonomies:
@@ -137,7 +137,7 @@ params:
       - name: About
         url: about
       - name: Mentorship
-        url: https://calendar.app.google/RbUaP9SAiacZJ9NF7
+        url: mentorship
 
   socialIcons:
     - name: github
