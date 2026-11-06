@@ -14,8 +14,8 @@ My name is Dorian Neto. I'm Brazilian, and I was born and raised in [Fortaleza, 
 
 I've been working since 2011 as a developer. Throughout my career, I have had the opportunity to work for companies from Brazil, Mexico and Canada. Among the several ideas that I'm fascinated by in software development, **tackling business problems by designing and architecting solutions** is what makes my eyes light up :star:.
 
-- [Speaker](/talks "Speaker")
-- [Mentor](/mentorship "Mentor")
+- [Talks](/talks "Talks")
+- [Mentorship](/mentorship "Mentorship")
 - ZCE (ZEND030288)
 
 {{< rawhtml >}}

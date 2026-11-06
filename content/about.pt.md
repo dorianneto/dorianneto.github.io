@@ -14,8 +14,8 @@ Me chamo Dorian Neto. Sou Brasileiro, nasci e fui criado em [Fortaleza, CE](http
 
 Trabalho como desenvolvedor desde 2011. Ao longo da minha carreira, tive a oportunidade de trabalhar para empresas do Brasil, México e Canadá. Dentre os diversos pontos que me fascinam na área de desenvolvimento de software, **resolver problemas de negócios por meio da concepção e arquitetura de soluções** é o que faz meus olhos brilharem :star:.
 
-- [Palestrante](/talks "Palestrante")
-- [Mentor](/mentorship "Mentor")
+- [Palestras](/talks "Palestras")
+- [Mentoria](/mentorship "Mentoria")
 - ZCE (ZEND030288) [:eyes:](/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/)
 
 {{< rawhtml >}}

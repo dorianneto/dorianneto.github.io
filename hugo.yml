@@ -44,8 +44,6 @@ languages:
         buttons:
           - name: Posts
             url: posts
-          - name: Palestras
-            url: talks
           - name: Sobre
             url: about
           - name: Mentoria
@@ -132,8 +130,6 @@ params:
     imageHeight: 240
     imageTitle: It's me, Dorian
     buttons:
-      - name: Talks
-        url: talks
       - name: About
         url: about
       - name: Mentorship
