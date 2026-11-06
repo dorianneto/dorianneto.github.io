@@ -8,6 +8,8 @@ showtoc: false
 disableShare: true
 ---
 
+> First time here? Consider to see more [about me](/about "about me")
+
 ### Who I help
 
 I work with backend engineers who want to grow faster than their current environment allows, and with career switchers aiming to break into software development who need a clear, honest roadmap instead of scattered advice. If you're at a point where you know the fundamentals but feel stuck on "what do I actually do next?", that's exactly the conversation I'm here for. I've been designing and building end-to-end web solutions since 2011, and I've seen firsthand which habits and decisions separate engineers who plateau from those who keep levelling up.

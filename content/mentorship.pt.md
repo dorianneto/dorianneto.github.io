@@ -8,6 +8,8 @@ showtoc: false
 disableShare: true
 ---
 
+> Primeira vez por aqui? Considere conhecer um pouco mais [sobre mim](/about "sobre mim")
+
 ### Quem eu ajudo
 
 Trabalho com engenheiros de backend que desejam evoluir mais rápido do que o ambiente atual permite, e com profissionais em transição de carreira que buscam ingressar no desenvolvimento de software e precisam de um roteiro claro e honesto, em vez de conselhos dispersos. Se você já domina os fundamentos, mas se sente estagnado, sem saber "qual deve ser o próximo passo", é exatamente sobre isso que podemos conversar. Desde 2011, projeto e desenvolvo soluções web completas (end-to-end) e, ao longo dessa trajetória, observei quais hábitos e decisões diferenciam os engenheiros que estagnam daqueles que continuam evoluindo constantemente.
