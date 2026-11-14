@@ -16,7 +16,25 @@ Trabalho como desenvolvedor desde 2011. Ao longo da minha carreira, tive a oport
 
 - [Palestras](/talks "Palestras")
 - [Mentoria](/mentorship "Mentoria")
-- ZCE (ZEND030288) [:eyes:](/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/)
+
+## Algumas das minhas conquistas
+
+Eu:
+
+- liderei equipes de desenvolvimento
+- desenvolvi diversas soluções web de ponta a ponta
+- aprimorei inúmeros processos internos
+- promovi melhorias na experiência do desenvolvedor
+- participei de processos de contratação de desenvolvedores (níveis júnior, pleno e sênior)
+- trabalhei com diferentes linguagens de programação
+- tive experiência em comunicação direta com as partes interessadas (stakeholders)
+- trabalho remotamente há mais de 10 anos
+- trabalhei com pessoas de diferentes culturas, países e idiomas
+- criei MVPs do zero
+- gerenciei projetos
+- orientei diversos estagiários
+- participei de vários eventos de comunidades sem fins lucrativos, atuando como organizador e palestrante
+- obtive uma certificação PHP da Zend (ZEND030288) [:eyes:](/pt/posts/guia-de-sobrevivencia-de-um-zcpe-zce/)
 
 {{< rawhtml >}}
     <img src="/images/zcpe-php-engineer-logo.jpg" />

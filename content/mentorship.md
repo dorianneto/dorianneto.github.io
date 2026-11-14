@@ -40,7 +40,7 @@ Book a session: https://calendar.app.google/RbUaP9SAiacZJ9NF7
 
 Notes:
 
-- The first session is free.
+- The first session is free
 - The sessions can be in Brazilian Portuguese :brazil: or English :us:
 
 ***

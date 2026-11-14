@@ -40,8 +40,8 @@ Agende uma sessão: https://calendar.app.google/RbUaP9SAiacZJ9NF7
 
 Observações:
 
-- A primeira sessão é gratuita.
-- As sessões podem ser realizadas em Português (Brasil) :brazil: ou em Inglês :us:.
+- A primeira sessão é gratuita
+- As sessões podem ser realizadas em Português (Brasil) :brazil: ou em Inglês :us:
 
 ***
 

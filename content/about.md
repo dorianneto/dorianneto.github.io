@@ -16,7 +16,25 @@ I've been working since 2011 as a developer. Throughout my career, I have had th
 
 - [Talks](/talks "Talks")
 - [Mentorship](/mentorship "Mentorship")
-- ZCE (ZEND030288)
+
+## Some of my achievements
+
+I have:
+
+- led developer teams
+- built several end-to-end web solutions
+- improved countless internal processes
+- advocated for developer experience
+- participated in hiring developers (junior, mid-level and senior)
+- worked with different programming languages
+- experienced direct communication with stakeholders
+- been working remotely for 10+ years
+- worked with people from different cultures, countries, and languages
+- built MVPs from scratch
+- managed projects
+- guided several trainees
+- attended several events from non-profit communities as an organizer and speaker
+- got a PHP certification from Zend (ZEND030288)
 
 {{< rawhtml >}}
     <img src="/images/zcpe-php-engineer-logo.jpg" />
